@@ -1,0 +1,4 @@
+<!--pages/home/home.wxml-->
+<text class="title">pages/home/home.wxml</text>
+<button size="mini" onclick = "doit">btn</button>
+<image src = "timg.jpg"></image>
