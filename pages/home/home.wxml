@@ -1,4 +1,9 @@
 <!--pages/home/home.wxml-->
 <text class="title">pages/home/home.wxml</text>
+
 <button size="mini" onclick = "doit">btn</button>
 <image src = "timg.jpg"></image>
+<view>waht i get {{name}}</view>
+<view wx:for ="{{students}}">{{item.name}}</view>
+<view>counter = {{counter}}</view>
+<button size="mini" bindtap="counteradd">+</button>
